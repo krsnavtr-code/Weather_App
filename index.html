@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weather app</title>
+    <!-- cdn font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style sheet -->
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <div class="card">
         <div class="search">
@@ -13,10 +20,12 @@
             <button><img src="./images/search.png" alt="search"></button>
         </div>
 
+        <!-- error message -->
         <div class="error">
             <p>Invalid city name</p>
         </div>
 
+        <!-- weather card  -->
         <div class="weather">
             <img src="./images/rain.png" alt="weather-icon" class="weather-icon">
             <h1 class="temp text-shadow">22<span>&#8451</span></h1>
@@ -41,6 +50,8 @@
         </div>
     </div>
 
+    <!-- script -->
     <script src="./script.js"></script>
 </body>
+
 </html>
